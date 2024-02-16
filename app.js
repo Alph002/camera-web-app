@@ -38,7 +38,6 @@ function cameraStart() {
         });
 }
 
-
 // If takePhotoButton clicked => Take and display a photo
 takePhotoButton.onclick = function() {
     cameraView.width = cameraDevice.videoWidth;
